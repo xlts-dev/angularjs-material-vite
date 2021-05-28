@@ -9,7 +9,7 @@
 #### Includes
 
 - [XLTS for AngularJS](https://xlts.dev/angularjs) with component-based architecture
-- [Angular Material](https://material.angularjs.org/latest/)
+- [AngularJS Material](https://material.angularjs.org/latest/)
 - [Sass](https://sass-lang.com/)
 - [Vite](https://vitejs.dev/) (as modern zero-config Webpack alternative)
 - [ESLint](https://eslint.org/)
