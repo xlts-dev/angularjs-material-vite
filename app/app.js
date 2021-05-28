@@ -7,24 +7,21 @@ import ServicesModule from './services/services';
 import { AppComponent } from './app.component';
 
 const appModule = angular
-	.module('appModule', [
-		'ngAnimate',
-		'ngAria',
-		'ngMessages',
-		'ngMaterial',
-		ComponentsModule,
-		ServicesModule,
-	])
-	.config([
-		'$mdThemingProvider',
-		($mdThemingProvider) => {
-			$mdThemingProvider
-				.theme('default')
-				.primaryPalette('brown')
-				.accentPalette('amber');
-		},
-	])
+  .module('appModule', [
+    'ngAnimate',
+    'ngAria',
+    'ngMessages',
+    'ngMaterial',
+    ComponentsModule,
+    ServicesModule,
+  ])
+  .config([
+    '$mdThemingProvider',
+    $mdThemingProvider => {
+      $mdThemingProvider.theme('default').primaryPalette('brown').accentPalette('amber');
+    },
+  ])
 
-	.component('app', AppComponent);
+  .component('app', AppComponent);
 
 export default appModule;

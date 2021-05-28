@@ -12,25 +12,29 @@ This project and everyone participating in it is governed by [our Code of Conduc
 
 #### Your first contribution
 
-There are many ways to contribute: 
-* writing tutorials or blog posts
-* improving the documentation
-* submitting bug reports 
-* submitting feature requests 
-* writing new code
-* writing unit tests for existing code
+There are many ways to contribute:
+
+- writing tutorials or blog posts
+- improving the documentation
+- submitting bug reports
+- submitting feature requests
+- writing new code
+- writing unit tests for existing code
 
 Unsure where to begin contributing to ng-hotrod? You can start by diving into the [road map](https://github.com/loenko/ng-hotrod/projects/1) and [issue tracker](https://github.com/loenko/ng-hotrod/issues). And also look through the `good first issue` (issues which should only require a few lines of code, and a test or two) and `help wanted` (issues which should be a bit more involved than beginner issues) labels specifically.
 
-Working on your first Pull Request? You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
+Working on your first Pull Request? You can learn how from this _free_ series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
 #### Getting Started
+
 Please, don't use the issue tracker for support questions and other non-functional communication! There's a [dedicated discussions page](https://github.com/fyodorio/ng-hotrod/discussions) where you can raise any question/suggestion related to ng-hotrod.
 
 Please, use [issue template](https://github.com/loenko/ng-hotrod/blob/master/.github/ISSUE_TEMPLATE.md) to create a detailed report on a problem (or description for a feature/enhancement suggestion), and make sure you've read the [pull request template](https://github.com/loenko/ng-hotrod/blob/master/.github/PULL_REQUEST_TEMPLATE.md) prior to submitting a new one.
 
 #### Code Style
+
 Please, be sure you follow the common [ESLint code style config](https://github.com/loenko/ng-hotrod/blob/master/.eslintrc) while working with the project code. It is basically inspired by [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript). To check correspondence of current code state to common rules you can use `npm run eslint` command.
 
 #### Review Process
+
 The repository maintainer(s) looks at Pull Requests (as well as issues submitted) on a regular basis. After feedback has been given you're expected to provide a response within three weeks. After three weeks we may close the pull request if it isn't showing any activity.

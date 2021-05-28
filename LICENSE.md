@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2018 Fyodor Loenko https://fyodor.io/ 
+Copyright (c) 2018-2021 Fyodor Loenko https://fyodor.io/
+Copyright (c) 2021 XLTS.dev https://xlts.dev/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

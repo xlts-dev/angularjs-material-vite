@@ -1,7 +1,7 @@
 class PageHomeController {
-	constructor(NavigationService) {
-		this.NavigationService = NavigationService;
-	}
+  constructor(NavigationService) {
+    this.NavigationService = NavigationService;
+  }
 }
 
 PageHomeController.$inject = ['NavigationService'];

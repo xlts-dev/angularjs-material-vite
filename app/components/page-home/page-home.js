@@ -1,8 +1,8 @@
 import pageHomeComponent from './page-home.component';
 
 const pageHomeModule = angular
-	.module('pageHome', [])
+  .module('pageHome', [])
 
-	.component('pageHome', pageHomeComponent).name;
+  .component('pageHome', pageHomeComponent).name;
 
 export default pageHomeModule;

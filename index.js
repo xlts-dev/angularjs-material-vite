@@ -4,21 +4,21 @@ import angular from 'angular';
 import app from './app/app';
 
 const component = () => {
-	// eslint-disable-next-line angular/document-service
-	const element = document.createElement('div');
+  // eslint-disable-next-line angular/document-service
+  const element = document.createElement('div');
 
-	element.setAttribute('ng-app', 'appModule');
-	element.className = 'app';
+  element.setAttribute('ng-app', 'appModule');
+  element.className = 'app';
 
-	element.innerHTML = `
+  element.innerHTML = `
             <app></app>
       `;
 
-	return element;
+  return element;
 };
 
 angular.element(() => {
-	angular.bootstrap(document, ['appModule']);
+  angular.bootstrap(document, ['appModule']);
 });
 
 // eslint-disable-next-line angular/document-service

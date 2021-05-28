@@ -1,13 +1,15 @@
 {
   "env": {
-    "browser": true
+    "browser": true,
+    "es6": true,
+    "commonjs": true
   },
   "globals": {
     "angular": true,
     "go": true
   },
   "plugins": ["prettier", "angular"], // https://github.com/Gillespie59/eslint-plugin-angular
-  "extends": ["prettier"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "rules": {
     "prettier/prettier": ["error"],
 
@@ -19,9 +21,9 @@
 
     // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rules/document-service.md
     "angular/document-service": "error",
-    
+
     // https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rules/directive-restrict.md
-    "angular/directive-restrict": [2, {"restrict":"A"} ],
+    "angular/directive-restrict": [2, { "restrict": "A" }],
 
     // 2.1 https://github.com/airbnb/javascript#references--prefer-const
     "prefer-const": "error",
@@ -41,12 +43,16 @@
 
     // 5.1 https://github.com/airbnb/javascript#destructuring--object
     // 5.2 https://github.com/airbnb/javascript#destructuring--array
-    "prefer-destructuring": ["error", {
-      "array": true,
-      "object": true
-    }, {
-      "enforceForRenamedProperties": false
-    }],
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": true,
+        "object": true
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
 
     // 6.1 https://github.com/airbnb/javascript#strings--quotes
     "quotes": ["error", "single", { "avoidEscape": true }],
@@ -79,7 +85,7 @@
     "no-param-reassign": ["error", { "props": false }],
 
     // 8.1 https://github.com/airbnb/javascript#arrows--use-them
-    "prefer-arrow-callback": [ "error", { "allowNamedFunctions": true } ],
+    "prefer-arrow-callback": ["error", { "allowNamedFunctions": true }],
     "arrow-spacing": "error",
 
     // 8.2 https://github.com/airbnb/javascript#arrows--implicit-return
@@ -87,7 +93,7 @@
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
 
     // 8.5 https://github.com/airbnb/javascript#arrows--confusing
-    "no-confusing-arrow": ["error", {"allowParens": true}],
+    "no-confusing-arrow": ["error", { "allowParens": true }],
 
     // 13.1 https://github.com/airbnb/javascript#variables--const
     "no-undef": "error",
@@ -135,7 +141,8 @@
     "array-bracket-spacing": ["error", "never"],
 
     // 19.11 https://github.com/airbnb/javascript#whitespace--in-braces
-    "object-curly-spacing": ["error", "never"],
+    // Ignore this airbnb rule and use a setting compatible with Prettier
+    "object-curly-spacing": ["error", "always"],
 
     // 19.12 https://github.com/airbnb/javascript#whitespace--max-len
     "max-len": ["error", 120],
@@ -232,5 +239,4 @@
     "ecmaVersion": 6,
     "sourceType": "module"
   }
-
 }

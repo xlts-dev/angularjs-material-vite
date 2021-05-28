@@ -2,8 +2,8 @@ import controller from './navbar.controller';
 import './navbar.scss';
 
 const navbarComponent = {
-	bindings: {},
-	template: `
+  bindings: {},
+  template: `
 		<md-toolbar class="navbar">
 			<div class="md-toolbar-tools">
 				<div flex layout="row" layout-align="start center">
@@ -11,7 +11,7 @@ const navbarComponent = {
 					<h2 class="active-page-name" md-truncate>{{ $ctrl.NavigationService.currentPageTitle }}</h2>
 				</div>
 				<a 
-					class="github-link" href="https://github.com/fyodorio/ng-hotrod" 
+					class="github-link" href="https://github.com/xlts-dev/angularjs-material-vite" 
 					layout="row" 
 					layout-align="center center">
 					<img ng-src="{{ $ctrl.githubLogo }}" alt="GitHub">
@@ -20,7 +20,7 @@ const navbarComponent = {
 			</div>
 		</md-toolbar>
 	`,
-	controller,
+  controller,
 };
 
 export default navbarComponent;

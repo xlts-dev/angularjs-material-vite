@@ -2,8 +2,8 @@ import controller from './page-home.controller';
 import './page-home.scss';
 
 const pageHomeComponent = {
-	bindings: {},
-	template: `
+  bindings: {},
+  template: `
 		<md-content class="page-home">
 			<h2 class="md-display-1">Modern starter for AngularJS + Angular Material</h2>
 			<img 
@@ -25,7 +25,7 @@ const pageHomeComponent = {
 			</div>
 		</md-content>
 	`,
-	controller,
+  controller,
 };
 
 export default pageHomeComponent;
