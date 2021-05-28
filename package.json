@@ -1,6 +1,6 @@
 {
   "name": "angularjs-material-vite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Starter for AngularJS + Angular Material bundled with Vite",
   "repository": {
     "type": "git",
@@ -31,11 +31,11 @@
     "update": "npx npm-check -u"
   },
   "dependencies": {
-    "angular": "^1.8.2",
-    "angular-animate": "^1.8.2",
-    "angular-aria": "^1.8.2",
+    "angular": "npm:@xlts.dev/angular@1.8.2",
+    "angular-animate": "npm:@xlts.dev/angular-animate@1.8.2",
+    "angular-aria": "npm:@xlts.dev/angular-aria@1.8.2",
     "angular-material": "^1.2.2",
-    "angular-messages": "^1.8.2"
+    "angular-messages": "npm:@xlts.dev/angular-messages@1.8.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
