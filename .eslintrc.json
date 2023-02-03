@@ -235,6 +235,7 @@
     // 23.8 https://github.com/airbnb/javascript#naming--PascalCase-singleton
     // 23.9 https://github.com/airbnb/javascript#naming--Acronyms-and-Initialisms
   },
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"

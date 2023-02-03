@@ -23,6 +23,7 @@
 - `npm start` - serve with hot reload at `localhost:1234`
 - `npm run build` - build bundled version in `dist` folder
 - `npm run lint` - lint code with ESLint using included config
+- `npm run e2e` - run e2e tests
 - `npm run format` - format code with Prettier
 - `npx hygen component new --name new-component --path relative/path/inside/of/src/app/folder` - generate folder with default component code files
 - `npx hygen service new --name new-service --path relative/path/inside/of/src/app/folder` - generate folder with default service code files

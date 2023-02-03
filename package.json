@@ -27,6 +27,8 @@
     "start": "npm run dev",
     "prebuild": "rm -rf dist",
     "lint": "eslint .",
+    "e2e": "playwright test",
+    "e2e:debug": "playwright test --project chromium --headed",
     "prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html}\"",
     "update": "npx npm-check -u"
   },
@@ -40,9 +42,11 @@
   "devDependencies": {
     "autoprefixer": "^10.2.6",
     "eslint": "^7.27.0",
+    "@babel/eslint-parser": "^7.19.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-angular": "^4.0.1",
     "eslint-plugin-prettier": "^3.4.0",
+    "@playwright/test": "^1.30.0",
     "husky": "^4.3.8",
     "hygen": "^6.1.0",
     "lint-staged": "^11.0.0",
