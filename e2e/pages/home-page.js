@@ -1,15 +1,16 @@
 export class HomePage {
-    title;
-    heroImage;
-    featuring;
-    constructor(page) {
-        this.page = page;
-        this.title = page.getByTestId('title');
-        this.heroImage = page.getByTestId('hero-image');
-        this.featuring = page.getByTestId('featuring').getByRole('link')
-    }
+  title;
+  heroImage;
+  featuring;
 
-    async clickOnAngularMaterialLink() {
-        await this.page.getByRole('link', { name: 'AngularJS' }).click();
-    }
+  constructor(page) {
+    this.page = page;
+    this.title = page.getByTestId('title');
+    this.heroImage = page.getByTestId('hero-image');
+    this.featuring = page.getByTestId('featuring').getByRole('link');
+  }
+
+  async clickOnAngularMaterialLink() {
+    await this.page.getByRole('link', { name: 'Angular Material' }).click();
+  }
 }

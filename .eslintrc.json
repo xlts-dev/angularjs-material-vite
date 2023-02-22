@@ -76,11 +76,6 @@
     // 7.10 https://github.com/airbnb/javascript#functions--constructor
     "no-new-func": "error",
 
-    // 7.11 https://github.com/airbnb/javascript#functions--signature-spacing
-    // 19.2 https://github.com/airbnb/javascript#whitespace--before-blocks
-    "space-before-function-paren": ["error", "never"],
-    "space-before-blocks": ["error", "always"],
-
     // 7.13 https://github.com/airbnb/javascript#functions--reassign-params
     "no-param-reassign": ["error", { "props": false }],
 
