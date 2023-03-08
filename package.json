@@ -27,9 +27,10 @@
     "start": "npm run dev",
     "prebuild": "rm -rf dist",
     "lint": "eslint .",
-    "e2e": "npm run lint && playwright test",
-    "e2e:debug": "npm run lint && playwright test --project chromium --headed",
-    "e2e-report": " npx playwright show-report",
+    "e2e": "playwright test",
+    "e2e:debug": "playwright test --project chromium --headed",
+    "e2e:report": "npx playwright show-report",
+    "test": "npm run lint && npm run e2e",
     "prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html}\"",
     "update": "npx npm-check -u",
     "prepare": "npx playwright install"
