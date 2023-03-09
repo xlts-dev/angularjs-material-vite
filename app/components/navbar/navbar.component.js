@@ -11,7 +11,7 @@ const navbarComponent = {
             data-testid="ng-hotrod-logo"
             class="ng-hotrod-logo"
             ng-src="{{ $ctrl.ngHotrodLogo }}"
-            alt="GitHub"
+            alt=""
 		  >
 	      <h2 data-testid="header" class="active-page-name" md-truncate>
 		    {{ $ctrl.NavigationService.currentPageTitle }}
