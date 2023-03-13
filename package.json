@@ -53,6 +53,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-angular": "^4.0.1",
     "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-import-order": "^2.1.4",
     "husky": "^4.3.8",
     "hygen": "^6.1.0",
     "lint-staged": "^11.0.0",

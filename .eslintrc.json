@@ -5,11 +5,10 @@
     "commonjs": true
   },
   "globals": {
-    "angular": true,
-    "go": true
+    "angular": true
   },
-  "plugins": ["prettier", "angular"], // https://github.com/Gillespie59/eslint-plugin-angular
-  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier", "angular", "import-order"], // https://github.com/Gillespie59/eslint-plugin-angular
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:import-order/recommended"],
   "rules": {
     "prettier/prettier": ["error"],
 
@@ -208,7 +207,17 @@
     "yoda": "error",
 
     // 24.15 https://eslint.org/docs/rules/max-lines.html
-    "max-lines": ["error", 500]
+    "max-lines": ["error", 500],
+    "import-order/import-order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "desc",
+          "caseInsensitive": false
+        },
+        "order": ["builtin", "external", "parent", "index", "sibling"]
+      }
+    ]
 
     // no rules for
 
