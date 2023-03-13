@@ -1,10 +1,10 @@
 import 'angular-animate';
 import 'angular-aria';
-import 'angular-messages';
 import 'angular-material';
+import 'angular-messages';
+import { AppComponent } from './app.component';
 import ComponentsModule from './components/components';
 import ServicesModule from './services/services';
-import { AppComponent } from './app.component';
 
 const appModule = angular
   .module('appModule', [
