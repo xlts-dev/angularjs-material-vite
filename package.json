@@ -49,7 +49,7 @@
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0",
     "sass": "^1.34.0",
-    "vite": "^2.3.4"
+    "vite": "^2.9.13"
   },
   "husky": {
     "hooks": {
