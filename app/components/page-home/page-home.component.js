@@ -10,7 +10,7 @@ const pageHomeComponent = {
 			    data-testid="hero-image"
 				class="hero-img" 
 				src="https://res.cloudinary.com/fyodorio/image/upload/v1611994660/my-logos/hotrod-logo_rhkfxy.jpg" 
-				alt="ng-hotrod">
+				alt="Sketch of an old car with the Angular logo on the door">
 			<h3 class="md-title">FEATURING:</h3>
 			<div layout="column" layout-align="center center">
 				<ul data-testid="featuring" class="md-headline" layout="column" layout-align="start start">
