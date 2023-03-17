@@ -70,9 +70,5 @@
     "*.{ts,js,json,scss,css}": [
       "prettier --write"
     ]
-  },
-  "engines": {
-    "node": ">=18",
-    "npm": "9"
   }
 }
