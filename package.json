@@ -36,9 +36,9 @@
     "prepare": "husky install && npx playwright install"
   },
   "dependencies": {
-    "angular": "npm:@xlts.dev/angular@1.9.1",
-    "angular-animate": "npm:@xlts.dev/angular-animate@1.9.1",
-    "angular-aria": "npm:@xlts.dev/angular-aria@1.9.1",
+    "angular": "npm:@xlts.dev/angular@^1.9.1",
+    "angular-animate": "npm:@xlts.dev/angular-animate@^1.9.1",
+    "angular-aria": "npm:@xlts.dev/angular-aria@^1.9.1",
     "angular-material": "npm:@xlts.dev/angular-material@^1.2.4",
     "angular-messages": "npm:@xlts.dev/angular-messages@^1.9.1"
   },
