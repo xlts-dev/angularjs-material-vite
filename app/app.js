@@ -21,7 +21,6 @@ const appModule = angular
       $mdThemingProvider.theme('default').primaryPalette('brown').accentPalette('amber');
     },
   ])
-
   .component('app', AppComponent);
 
 export default appModule;
