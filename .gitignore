@@ -9,3 +9,7 @@ node_modules
 *.log
 dist/
 yarn.lock
+
+/test-results/
+/playwright-report/
+/playwright/.cache/

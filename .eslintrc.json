@@ -77,7 +77,7 @@
 
     // 7.11 https://github.com/airbnb/javascript#functions--signature-spacing
     // 19.2 https://github.com/airbnb/javascript#whitespace--before-blocks
-    "space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": ["error", {"anonymous": "never", "named": "never", "asyncArrow": "always"}],
     "space-before-blocks": ["error", "always"],
 
     // 7.13 https://github.com/airbnb/javascript#functions--reassign-params
@@ -244,6 +244,7 @@
     // 23.8 https://github.com/airbnb/javascript#naming--PascalCase-singleton
     // 23.9 https://github.com/airbnb/javascript#naming--Acronyms-and-Initialisms
   },
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"

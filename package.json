@@ -27,8 +27,13 @@
     "start": "npm run dev",
     "prebuild": "rm -rf dist",
     "lint": "eslint .",
+    "e2e": "playwright test",
+    "e2e:debug": "playwright test --project chromium --headed",
+    "e2e:report": "npx playwright show-report",
+    "test": "npm run lint && npm run e2e",
     "prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html}\"",
-    "update": "npx npm-check -u"
+    "update": "npx npm-check -u",
+    "prepare": "npx playwright install"
   },
   "dependencies": {
     "angular": "npm:@xlts.dev/angular@1.8.7",
@@ -38,12 +43,18 @@
     "angular-messages": "npm:@xlts.dev/angular-messages@1.8.7"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/plugin-proposal-object-rest-spread": "7.20.7",
+    "@babel/plugin-transform-object-assign": "7.18.6",
+    "@babel/preset-env": "7.20.2",
+    "@playwright/test": "^1.30.0",
     "autoprefixer": "^10.2.6",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-angular": "^4.0.1",
-    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-import-order": "^2.1.4",
+    "eslint-plugin-prettier": "^3.4.0",
     "husky": "^4.3.8",
     "hygen": "^6.1.0",
     "lint-staged": "^11.0.0",
