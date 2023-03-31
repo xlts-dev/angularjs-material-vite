@@ -1,4 +1,4 @@
-# XLTS for AngularJS + AngularJS Material + Vite
+# XLTS for AngularJS + XLTS for AngularJS Material + Vite
 
 [![Semver](https://img.shields.io/github/package-json/v/xlts-dev/angularjs-material-vite)](https://github.com/xlts-dev/angularjs-material-vite)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -9,7 +9,7 @@
 #### Includes
 
 - [XLTS for AngularJS](https://xlts.dev/angularjs) with component-based architecture
-- [AngularJS Material](https://material.angularjs.org/latest/)
+- [XLTS for AngularJS Material](https://material.angularjs.xlts.dev/latest)
 - [Sass](https://sass-lang.com/)
 - [Vite](https://vitejs.dev/) (as modern zero-config Webpack alternative)
 - [ESLint](https://eslint.org/)
