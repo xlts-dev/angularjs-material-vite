@@ -5,7 +5,9 @@ const pageHomeComponent = {
   bindings: {},
   template: `
 		<md-content class="page-home">
-			<h2 data-testid="title" class="md-display-1">Modern starter for XLTS for AngularJS + XLTS for AngularJS Material + Vite</h2>
+			<h2 data-testid="title" class="md-display-1">
+			    Modern starter for XLTS for AngularJS + XLTS for AngularJS Material + Vite
+			</h2>
 			<img 
 			    data-testid="hero-image"
 				class="hero-img" 
