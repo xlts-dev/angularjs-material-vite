@@ -35,6 +35,10 @@
     "update": "npx npm-check -u",
     "prepare": "husky install && npx playwright install"
   },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
   "dependencies": {
     "angular": "npm:@xlts.dev/angular@^1.9.1",
     "angular-animate": "npm:@xlts.dev/angular-animate@^1.9.1",
